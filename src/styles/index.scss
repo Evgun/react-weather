@@ -1,0 +1,74 @@
+@import "~reset-css";
+@import "~sass-rem";
+
+@import "variables/";
+
+@import "components/";
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  background-image: url(../images/background_h.jpg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+
+.MuiButton-startIcon {
+  margin: 0 !important;
+  width: 50px !important;
+  height: 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiToggleButton-root {
+  padding: 0 !important;
+  background-color: $primary-dark-color !important;
+}
+
+.Mui-selected {
+  background-color: $primary-color !important;
+}
+
+.MuiBottomNavigation-root .MuiButtonBase-root.Mui-selected {
+  background-color: white !important;
+}
+
+.MuiBottomNavigationAction-label.Mui-selected {
+  background-color: white !important;
+}
+
+.MuiBottomNavigation-root {
+  width: 100% !important;
+  justify-content: flex-start !important;
+  position: fixed;
+  bottom: 0;
+}
+
+.btn {
+  padding: 0 !important;
+}

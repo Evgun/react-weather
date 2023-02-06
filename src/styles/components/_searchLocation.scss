@@ -1,0 +1,7 @@
+.search-container {
+  flex-grow: 0.7;
+}
+
+.search-container:focus, .MuiFormControl-root:focus, .MuiInputBase-formControl:focus {
+  outline-color: white !important;
+}
